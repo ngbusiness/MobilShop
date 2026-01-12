@@ -18,6 +18,7 @@ const siteData = {
     { name: "Kontakt", href: "#contact-section" },
     { name: "O nama", href: "#why-us-section" },
     { name: "Autor", href: "autor.html" },
+    { name: "Dokumentacija", href: "Dokumentacija.pdf" },
   ],
 
   // Hero sekcija
