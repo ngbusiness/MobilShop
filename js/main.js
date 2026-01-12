@@ -150,7 +150,7 @@ const siteData = {
       price: 219990,
       oldPrice: null,
       badge: "popular",
-      image: "assets/img/Samsung-Galaxy-Z-Fold-5.webp",
+      image: "assets/img/Samsung-Galaxy-Z-Fold-5.png",
       fullSpecs: {
         Ekran: '7.6" + 6.2" Dynamic AMOLED',
         Procesor: "Snapdragon 8 Gen 2",
