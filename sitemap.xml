@@ -3,7 +3,7 @@
     
     <!-- Glavna stranica -->
     <url>
-        <loc>https://www.tvoj-sajt.rs/index.html</loc>
+        <loc>https://ngbusiness.github.io/MobilShop/index.html</loc>
         <lastmod>2026-01-12</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
@@ -11,7 +11,7 @@
 
     <!-- Stranica autora -->
     <url>
-        <loc>https://www.tvoj-sajt.rs/autor.html</loc>
+        <loc>https://ngbusiness.github.io/MobilShop/autor.html</loc>
         <lastmod>2026-01-12</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
