@@ -923,7 +923,7 @@ function setupScrollSpy() {
 const autorData = {
     ime: "Nikola Gajić",
     brojIndeksa: "160/23",
-    slika: "/assets/img/ng23.jpg",
+    slika: "assets/img/ng23.jpg",
     tekst: "Student sam ICT-a, zainteresovan za web development i moderne tehnologije. " +
            "Ovo je dinamički kreirana stranica autora pomoću JavaScript-a."
 };
