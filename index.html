@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MobilShop - Vaša destinacija za najnovije mobilne telefone. Širok izbor Samsung, Apple, Xiaomi i drugih brendova po najboljim cenama.">
+    <meta name="keywords" content="mobilni telefoni, smartphone, Samsung, iPhone, Xiaomi, kupovina telefona, MobilShop">
+    <meta name="author" content="MobilShop">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="MobilShop - Premium Mobilni Telefoni">
+    <meta property="og:description" content="Pronađite savršen telefon za vas. Besplatna dostava, garancija i podrška.">
+    <meta property="og:type" content="website">
+    <title>MobilShop - Premium Mobilni Telefoni</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <header id="header">
+        <!-- Dinamicki generisan header -->
+    </header>
+
+    <nav id="main-nav">
+        <!-- Dinamicki generisan meni -->
+    </nav>
+
+    <main>
+        <section id="hero">
+            <!-- Dinamicki generisan hero -->
+        </section>
+
+        <section id="featured-section">
+            <div class="container">
+                <h2 id="featured-title"><!-- Dinamicki --></h2>
+                <p id="featured-subtitle"><!-- Dinamicki --></p>
+                <div id="featured-products" class="products-grid">
+                    <!-- Dinamicki generisani proizvodi -->
+                </div>
+            </div>
+        </section>
+
+        <section id="brands-section">
+            <div class="container">
+                <h2 id="brands-title"><!-- Dinamicki --></h2>
+                <div id="brands-container" class="brands-grid">
+                    <!-- Dinamicki generisani brendovi -->
+                </div>
+            </div>
+        </section>
+
+        <section id="contact-section">
+            <div class="container">
+                <h2 id="contact-title"><!-- Dinamicki --></h2>
+                <p id="contact-subtitle"><!-- Dinamicki --></p>
+                
+                <form id="contact-form" novalidate>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="ime">Ime i prezime *</label>
+                            <input type="text" id="ime" name="ime" placeholder="Unesite ime i prezime">
+                            <span class="error-message" id="ime-error"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email adresa *</label>
+                            <input type="email" id="email" name="email" placeholder="vas@email.com">
+                            <span class="error-message" id="email-error"></span>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="telefon">Broj telefona *</label>
+                            <input type="tel" id="telefon" name="telefon" placeholder="06X XXX XXXX">
+                            <span class="error-message" id="telefon-error"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="brend">Preferirani brend</label>
+                            <select id="brend" name="brend">
+                                <option value="">-- Izaberite brend --</option>
+                                <option value="apple">Apple</option>
+                                <option value="samsung">Samsung</option>
+                                <option value="xiaomi">Xiaomi</option>
+                                <option value="huawei">Huawei</option>
+                                <option value="oneplus">OnePlus</option>
+                            </select>
+                            <span class="error-message" id="brend-error"></span>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="budzet">Budžet (RSD)</label>
+                        <input type="range" id="budzet" name="budzet" min="20000" max="300000" step="10000" value="100000">
+                        <output id="budzet-output">100,000 RSD</output>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Šta vas zanima?</label>
+                        <div class="checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="interesovanje" value="novi">
+                                Novi telefoni
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="interesovanje" value="polovni">
+                                Polovni telefoni
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="interesovanje" value="akcije">
+                                Akcijske ponude
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="interesovanje" value="oprema">
+                                Oprema i dodaci
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="poruka">Vaša poruka</label>
+                        <textarea id="poruka" name="poruka" rows="4" placeholder="Opišite šta tražite..."></textarea>
+                        <span class="error-message" id="poruka-error"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="uslovi" name="uslovi">
+                            Prihvatam <a href="#">uslove korišćenja</a> i <a href="#">politiku privatnosti</a> *
+                        </label>
+                        <span class="error-message" id="uslovi-error"></span>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Pošalji upit</button>
+                </form>
+
+                <div id="form-success" class="form-success hidden">
+                    <!-- Dinamicki prikaz uspesne poruke -->
+                </div>
+            </div>
+        </section>
+
+        <section id="why-us-section">
+            <div class="container">
+                <h2 id="why-us-title"><!-- Dinamicki --></h2>
+                <div id="why-us-container" class="features-grid">
+                    <!-- Dinamicki generisane prednosti -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <!-- Dinamicki generisan footer -->
+    </footer>
+
+    <div id="modal" class="modal hidden">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <div id="modal-body">
+                <!-- Dinamicki sadrzaj modala -->
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+    <div id="toast" class="hidden"></div>
+
+</body>
+</html>

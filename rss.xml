@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>MobilShop - Najnoviji telefoni</title>
+    <link>https://www.tvoj-sajt.rs/</link>
+    <description>Najnoviji modeli telefona i ponude.</description>
+    <language>sr</language>
+    <lastBuildDate>Sun, 12 Jan 2026 08:00:00 +0100</lastBuildDate>
+
+    <!-- Primer proizvoda -->
+    <item>
+      <title>iPhone 15 Pro Max</title>
+      <link>https://www.tvoj-sajt.rs/#featured-section</link>
+      <description>Najnoviji iPhone 15 Pro Max sa najboljim performansama.</description>
+      <pubDate>Sun, 12 Jan 2026 08:00:00 +0100</pubDate>
+      <guid>product-1</guid>
+    </item>
+
+    <item>
+      <title>Samsung Galaxy S24</title>
+      <link>https://www.tvoj-sajt.rs/#featured-section</link>
+      <description>Samsung Galaxy S24 – moćan, moderan i pouzdan telefon.</description>
+      <pubDate>Sun, 12 Jan 2026 08:00:00 +0100</pubDate>
+      <guid>product-2</guid>
+    </item>
+
+  </channel>
+</rss>
