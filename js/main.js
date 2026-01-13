@@ -205,7 +205,7 @@ const siteData = {
       { name: "Akcijske ponude", href: "#hero" },
       { name: "Novi modeli", href: "#hero" },
       { name: "Oprema", href: "#hero" },
-      { name: "RSS", href: "rss.xml" },
+      { name: "RSS", href: "rss.xm" },
     ],
     support: [
       { name: "Česta pitanja", href: "#hero" },
