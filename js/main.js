@@ -201,10 +201,10 @@ const siteData = {
   footer: {
     about: "MobilShop je vaša pouzdana destinacija za kupovinu mobilnih telefona od 2015. godine.",
     quickLinks: [
-      { name: "Svi telefoni", href: "#" },
-      { name: "Akcijske ponude", href: "#" },
-      { name: "Novi modeli", href: "#" },
-      { name: "Oprema", href: "#" },
+      { name: "Svi telefoni", href: "#hero" },
+      { name: "Akcijske ponude", href: "#hero" },
+      { name: "Novi modeli", href: "#hero" },
+      { name: "Oprema", href: "#hero" },
     ],
     support: [
       { name: "Česta pitanja", href: "#" },
@@ -217,7 +217,14 @@ const siteData = {
       phone: "+381 11 123 4567",
       email: "info@mobilshop.rs",
     },
-    social: ["📘", "📸", "🐦", "📺"],
+    social: [
+  { icon: "📘", name: "Facebook", url: "https://www.facebook.com/" },
+  { icon: "📸", name: "Instagram", url: "https://www.instagram.com/" },
+  { icon: "🐦", name: "Twitter", url: "https://twitter.com/" },
+  { icon: "📺", name: "YouTube", url: "https://www.youtube.com/" },
+  { icon: "📰", name: "RSS", url: "rss.xml" },
+  { icon: "🗺️", name: "Sitemap", url: "sitemap.xml" }
+],
     copyright: "© 2026 MobilShop. Sva prava zadržana.",
   },
 }
