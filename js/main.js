@@ -207,10 +207,12 @@ const siteData = {
       { name: "Oprema", href: "#hero" },
     ],
     support: [
-      { name: "Česta pitanja", href: "#" },
-      { name: "Garancija", href: "#" },
-      { name: "Dostava", href: "#" },
-      { name: "Reklamacije", href: "#" },
+      { name: "Česta pitanja", href: "#hero" },
+      { name: "Garancija", href: "#hero" },
+      { name: "Dostava", href: "#hero" },
+      { name: "Reklamacije", href: "#hero" },
+      { name: "RSS", href: "rss.xml" },
+      { name: "Sitemap", href: "sitemap.xml" },
     ],
     contact: {
       address: "Knez Mihailova 25, Beograd",
