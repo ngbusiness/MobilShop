@@ -18,7 +18,7 @@ const siteData = {
     { name: "Kontakt", href: "#contact-section" },
     { name: "O nama", href: "#why-us-section" },
     { name: "Autor", href: "autor.html" },
-    { name: "Dokumentacija", href: "Dokumentacija.pdf" }
+    { name: "Dokumentacija", href: "Dokumentacija.pdf" },
   ],
 
   // Hero sekcija
@@ -217,12 +217,7 @@ const siteData = {
       phone: "+381 11 123 4567",
       email: "info@mobilshop.rs",
     },
-    social: [
-  { icon: "📘", name: "Facebook", url: "https://www.facebook.com/" },
-  { icon: "📸", name: "Instagram", url: "https://www.instagram.com/" },
-  { icon: "🐦", name: "Twitter", url: "https://twitter.com/" },
-  { icon: "📺", name: "YouTube", url: "https://www.youtube.com/" }
-],
+    social: ["📘", "📸", "🐦", "📺"],
     copyright: "© 2026 MobilShop. Sva prava zadržana.",
   },
 }
