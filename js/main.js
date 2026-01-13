@@ -212,7 +212,7 @@ const siteData = {
       { name: "Dostava", href: "#hero" },
       { name: "Reklamacije", href: "#hero" },
       { name: "RSS", href: "rss.xml" },
-      { name: "Sitemap", href: "sitemap.xm" },
+      { name: "Sitemap", href: "sitemap.xml" },
     ],
     contact: {
       address: "Knez Mihailova 25, Beograd",
