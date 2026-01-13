@@ -19,6 +19,8 @@ const siteData = {
     { name: "O nama", href: "#why-us-section" },
     { name: "Autor", href: "autor.html" },
     { name: "Dokumentacija", href: "Dokumentacija.pdf" },
+    { name: "RSS", href: "rss.xml" },
+    { name: "Sitemap", href: "sitemap.xml" },
   ],
 
   // Hero sekcija
@@ -221,9 +223,7 @@ const siteData = {
   { icon: "📘", name: "Facebook", url: "https://www.facebook.com/" },
   { icon: "📸", name: "Instagram", url: "https://www.instagram.com/" },
   { icon: "🐦", name: "Twitter", url: "https://twitter.com/" },
-  { icon: "📺", name: "YouTube", url: "https://www.youtube.com/" },
-  { icon: "📰", name: "RSS", url: "rss.xml" },
-  { icon: "🗺️", name: "Sitemap", url: "sitemap.xml" }
+  { icon: "📺", name: "YouTube", url: "https://www.youtube.com/" }
 ],
     copyright: "© 2026 MobilShop. Sva prava zadržana.",
   },
