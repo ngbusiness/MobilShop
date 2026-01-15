@@ -205,14 +205,15 @@ const siteData = {
       { name: "Akcijske ponude", href: "#hero" },
       { name: "Novi modeli", href: "#hero" },
       { name: "Oprema", href: "#hero" },
-      { name: "RSS", href: "rss.xml" },
+      { name: "Sitemap", href: "sitemap.xml" },
     ],
     support: [
       { name: "Česta pitanja", href: "#hero" },
       { name: "Garancija", href: "#hero" },
       { name: "Dostava", href: "#hero" },
       { name: "Reklamacije", href: "#hero" },
-      { name: "Sitemap", href: "sitemap.xml" },
+      { name: "RSS", href: "rss.xml" },
+      
     ],
     contact: {
       address: "Knez Mihailova 25, Beograd",
